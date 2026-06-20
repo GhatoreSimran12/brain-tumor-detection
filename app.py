@@ -1,5 +1,5 @@
 ﻿import streamlit as st
-import tensorflow as tf
+import keras
 import numpy as np
 from PIL import Image
 import os
@@ -20,8 +20,8 @@ def load_model():
         with st.spinner("Downloading model... Please wait."):
             gdown.download(url, MODEL_PATH, quiet=False)
 
-    return tf.keras.models.load_model(MODEL_PATH)
-
+    return keras.models.load_model(MODEL_PATH)
+    
 model = load_model()
 
 st.title("Brain Tumor Detection System")
