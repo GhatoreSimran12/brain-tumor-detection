@@ -75,6 +75,20 @@ DeploymenT:The application is deployed using:
 
 Users can upload MRI images directly through the web interface and obtain predictions instantly.
 
+
+Future Enhancements:
+* Multi-class brain tumor classification
+* Tumor localization and segmentation
+* Explainable AI using Grad-CAM
+* Clinical decision support integration
+* Mobile application deployment
+
+
+
+License
+This project is intended for educational and research purposes only and should not be used as a substitute for professional medical diagnosis.
+
+
 Project Structure
 
 ```text
@@ -86,20 +100,3 @@ brain-tumor-detection/
 └── model/
     └── best_efficientnet_model.h5
 
-Future Enhancements:
-* Multi-class brain tumor classification
-* Tumor localization and segmentation
-* Explainable AI using Grad-CAM
-* Clinical decision support integration
-* Mobile application deployment
-
-
-Research Interests:
-* Deep Learning
-* Computer Vision
-* Medical Image Analysis
-* Artificial Intelligence
-
-License
-This project is intended for educational and research purposes only and should not be used as a substitute for professional medical diagnosis.
-This project is intended for educational and research purposes only and should not be used as a substitute for professional medical diagnosis.
